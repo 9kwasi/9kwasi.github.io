@@ -2,6 +2,7 @@ body{
   background-color: #2E3440;
   color:white;
   font-family:Segoe UI;
+  
 }
 #navbar{
   text-align:left;
@@ -13,4 +14,5 @@ body{
 }
 a{ 
   text-decoration : none; color : #D8DEE9;
+  text-align:center;
 }
