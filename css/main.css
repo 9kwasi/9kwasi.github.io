@@ -1,1 +1,14 @@
-
+body{
+  background-color: #2E3440;
+}
+#navbar{
+  text-align:left;
+  font-family:helvetica;
+  background-color:#3B4252;
+}
+.navbar-button{ 
+   padding:10px;
+}
+a{ 
+  text-decoration : none; color : #D8DEE9;
+}
