@@ -18,7 +18,12 @@ td a{
   height:100%;
   display:block;
 }
-
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+}
 h2 {
   text-align:center;
 }
