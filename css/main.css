@@ -1,6 +1,5 @@
 body{
   background-color: #2E3440;
-  background-image:url(/media/test.png);
   color:white;
   font-family:Segoe UI;
 }
@@ -28,9 +27,3 @@ img {
   display: block;
   margin: 0 auto;
 }
-.trail { /* className for the trail elements */
-    position: absolute;
-    height: 6px; width: 6px;
-    border-radius: 3px;
-    background: teal;
-  }
