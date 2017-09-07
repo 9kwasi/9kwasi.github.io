@@ -23,6 +23,8 @@ table {
 }
 td, th {
     border: 1px solid black;
+  tr:hover {
+  }
 }
 h2 {
   text-align:center;
