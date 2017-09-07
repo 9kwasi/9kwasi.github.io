@@ -24,7 +24,7 @@ table {
 td, th {
     border: 1px solid black;
 }
-  tr:hover { background-color:#475063;
+  td:hover { background-color:#475063;
   }
 h2 {
   text-align:center;
