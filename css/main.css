@@ -16,6 +16,7 @@ body{
   vertical-align: middle;
   width: 94%;
   height:75%;
+  font-size:1.27em;
 }
 .navbar-button:hover { background-color:#475063;
   }
