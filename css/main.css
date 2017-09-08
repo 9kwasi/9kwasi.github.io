@@ -6,11 +6,18 @@ body{
 #navbar{
   text-align:center;
   background-color:#3B4252;
+  border-collapse: collapse;
+  table-layout: fixed;
 }
 .navbar-button{
   font-weight:normal;
   padding:10px;
+  border: 1px solid black;
+  vertical-align: middle;
+  width: 25%
 }
+.navbar-button:hover { background-color:#475063;
+  }
 td a{
   text-decoration : none; 
   color : #D8DEE9;
@@ -18,15 +25,6 @@ td a{
   height:100%;
   display:block;
 }
-table {
-    border-collapse: collapse;
-}
-td, th {
-    border: 1px solid black;
-    vertical-align: middle;
-}
-  td:hover { background-color:#475063;
-  }
 h2 {
   text-align:center;
 }
