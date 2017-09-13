@@ -25,6 +25,7 @@ body{
 }
 .navbar-button:hover { 
   background-color:#475063;
+  text-decoration:none;
 }
 .nav-links {
   text-decoration: none; 
