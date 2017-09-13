@@ -23,10 +23,11 @@ body{
   height:75%;
   font-size:1.27em;
 }
-.navbar-button:hover { background-color:#475063;
-  }
+.navbar-button:hover { 
+  background-color:#475063;
+}
 .nav-links {
-  text-decoration : none; 
+  text-decoration: none; 
   color : #D8DEE9;
   width:100%;
   height:100%;
@@ -37,6 +38,9 @@ a {
     font-weight: bold;
     color : #7694b8;
 }
+a:hover {
+  text-decoration:underline;
+}  
 #heading {
   text-align:center;
 }
