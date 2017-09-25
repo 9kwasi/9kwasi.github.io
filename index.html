@@ -49,19 +49,35 @@
       </ul>
       <p>If you want to learn more about Github's vocabulary, click the greatest president of all time: 
       </p>
-      <a href="https://help.github.com/articles/github-glossary/">
+      <a id="bestPrez" href="https://help.github.com/articles/github-glossary/">
         <img src="/media/bush.jpg" width="250px">
       </a>
       <a href="">
-      <img src="/media/DUMBDUDE.jpg" width="150px">
+      <img id="bitchImage" src="/media/DUMBDUDE.jpg" width="150px">
       </a>
       <a href="">
-      <img src="/media/badprez.jpg" width="150px">
+      <img id="bitchImage" src="/media/badprez.jpg" width="150px">
       </a>
       <a href="">
-      <img src="/media/download.jpg" width="150px" height="200px">
+      <img id="bitchImage" src="/media/download.jpg" width="150px" height="200px">
       </a>
-    <hr>  
+      <script type="text/javascript">
+        function makeBigger(){
+          var bush=document.getElementById("bestPrez");
+          var newWidth=bush.width +10;
+          var newHeight=bush.height +10;
+          
+          bush.width=newWidth;
+          bush.height=newHeight;
+        }
+        
+        window.onload = makeBigger() {
+        document.getElementById("bitchImage").onclick = makeBigger() {
+         
+        };
+        };
+      </script>
+    <hr>
     <h2 class="heading">Why are we using Github?</h2>
       <hr align="left">
   </body>
