@@ -52,10 +52,14 @@
       <a id="bestPrez" href="https://help.github.com/articles/github-glossary/">
         <img src="/media/bush.jpg" width="255px">
       </a>
-      <img id="bitchImage" src="/media/DUMBDUDE.jpg" width="150px">
-      <img id="bitchImage" src="/media/badprez.jpg" width="150px">
-      <img id="bitchImage" src="/media/download.jpg" width="150px" height="200px">
-    
+      <img id="bitchImage" onclick="enlarge()" src="/media/DUMBDUDE.jpg" width="150px">
+      <img id="bitchImage" onclick="enlarge()" src="/media/badprez.jpg" width="150px">
+      <img id="bitchImage" onclick="enlarge()" src="/media/download.jpg" width="150px" height="200px">
+    <script>
+        function enlarge(){
+          document.getElementById("bitchImage").style.width = "300px";
+        }
+      </script>
     <hr>
     <h2 class="heading">Why are we using Github?</h2>
       <hr align="left">
