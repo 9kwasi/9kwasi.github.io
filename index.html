@@ -49,8 +49,8 @@
       </ul>
       <p>If you want to learn more about Github's vocabulary, click the greatest president of all time: 
       </p>
-      <a id="bestPrez" href="https://help.github.com/articles/github-glossary/">
-        <img src="/media/bush.jpg" width="255">
+      <a href="https://help.github.com/articles/github-glossary/">
+        <img id="bestPrez" src="/media/bush.jpg" width="255">
       </a>
       <img id="bitchImage" onclick="enlarge()" src="/media/DUMBDUDE.jpg" width="150px">
       <img id="bitchImage" onclick="enlarge()" src="/media/badprez.jpg" width="150px">
@@ -72,6 +72,7 @@
       
         function enlarge(){
           var imageWidth = getStyle(document.getElementById("bestPrez"), "width");
+          println(imageWidth);
           document.getElementById("bestPrez").style.width = "500px";
         }
       </script>
