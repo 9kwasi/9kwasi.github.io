@@ -50,14 +50,29 @@
       <p>If you want to learn more about Github's vocabulary, click the greatest president of all time: 
       </p>
       <a id="bestPrez" href="https://help.github.com/articles/github-glossary/">
-        <img src="/media/bush.jpg" width="255px">
+        <img src="/media/bush.jpg" width="255">
       </a>
       <img id="bitchImage" onclick="enlarge()" src="/media/DUMBDUDE.jpg" width="150px">
       <img id="bitchImage" onclick="enlarge()" src="/media/badprez.jpg" width="150px">
       <img id="bitchImage" onclick="enlarge()" src="/media/download.jpg" width="150px" height="200px">
     <script>
+      function getStyle(oElm, strCssRule){
+    var strValue = "";
+    if(document.defaultView && document.defaultView.getComputedStyle){
+        strValue = document.defaultView.getComputedStyle(oElm, "").getPropertyValue(strCssRule);
+    }
+    else if(oElm.currentStyle){
+        strCssRule = strCssRule.replace(/\-(\w)/g, function (strMatch, p1){
+            return p1.toUpperCase();
+        });
+        strValue = oElm.currentStyle[strCssRule];
+    }
+    return strValue;
+}
+      
         function enlarge(){
-          document.getElementById("bitchImage").style.width = "300px";
+          var imageWidth = getStyle(document.getElementById("bestPrez"), "width");
+          document.getElementById("bestPrez").style.width = imageWidth+30;
         }
       </script>
     <hr>
